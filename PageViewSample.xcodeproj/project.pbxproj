@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8027CD822928B9DD00873A26 /* WednesdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027CD812928B9DD00873A26 /* WednesdayViewController.swift */; };
+		8027CD842928BA1F00873A26 /* WednesdayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8027CD832928BA1F00873A26 /* WednesdayViewController.storyboard */; };
+		8027CD862928BF5D00873A26 /* ThursdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027CD852928BF5D00873A26 /* ThursdayViewController.swift */; };
+		8027CD882928BF7D00873A26 /* ThursdayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8027CD872928BF7D00873A26 /* ThursdayViewController.storyboard */; };
 		8049B1D22928A3E800495CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049B1D12928A3E800495CA3 /* AppDelegate.swift */; };
 		8049B1D42928A3E800495CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049B1D32928A3E800495CA3 /* SceneDelegate.swift */; };
-		8049B1D62928A3E800495CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049B1D52928A3E800495CA3 /* ViewController.swift */; };
+		8049B1D62928A3E800495CA3 /* PageViewSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049B1D52928A3E800495CA3 /* PageViewSampleViewController.swift */; };
 		8049B1D92928A3E800495CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8049B1D72928A3E800495CA3 /* Main.storyboard */; };
 		8049B1DB2928A3E900495CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8049B1DA2928A3E900495CA3 /* Assets.xcassets */; };
 		8049B1DE2928A3E900495CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8049B1DC2928A3E900495CA3 /* LaunchScreen.storyboard */; };
+		8049B1E62928A41200495CA3 /* MondayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049B1E52928A41200495CA3 /* MondayViewController.swift */; };
+		8049B1E82928A47000495CA3 /* MondayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8049B1E72928A47000495CA3 /* MondayViewController.storyboard */; };
+		8049B1EB2928AB1E00495CA3 /* TusedayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049B1EA2928AB1E00495CA3 /* TusedayViewController.swift */; };
+		8049B1ED2928AB3C00495CA3 /* TusedayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8049B1EC2928AB3C00495CA3 /* TusedayViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8027CD812928B9DD00873A26 /* WednesdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WednesdayViewController.swift; sourceTree = "<group>"; };
+		8027CD832928BA1F00873A26 /* WednesdayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WednesdayViewController.storyboard; sourceTree = "<group>"; };
+		8027CD852928BF5D00873A26 /* ThursdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThursdayViewController.swift; sourceTree = "<group>"; };
+		8027CD872928BF7D00873A26 /* ThursdayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThursdayViewController.storyboard; sourceTree = "<group>"; };
 		8049B1CE2928A3E800495CA3 /* PageViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8049B1D12928A3E800495CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8049B1D32928A3E800495CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8049B1D52928A3E800495CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8049B1D52928A3E800495CA3 /* PageViewSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewSampleViewController.swift; sourceTree = "<group>"; };
 		8049B1D82928A3E800495CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8049B1DA2928A3E900495CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8049B1DD2928A3E900495CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8049B1DF2928A3E900495CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8049B1E52928A41200495CA3 /* MondayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayViewController.swift; sourceTree = "<group>"; };
+		8049B1E72928A47000495CA3 /* MondayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MondayViewController.storyboard; sourceTree = "<group>"; };
+		8049B1EA2928AB1E00495CA3 /* TusedayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TusedayViewController.swift; sourceTree = "<group>"; };
+		8049B1EC2928AB3C00495CA3 /* TusedayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TusedayViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,29 @@
 			children = (
 				8049B1D12928A3E800495CA3 /* AppDelegate.swift */,
 				8049B1D32928A3E800495CA3 /* SceneDelegate.swift */,
-				8049B1D52928A3E800495CA3 /* ViewController.swift */,
+				8049B1D52928A3E800495CA3 /* PageViewSampleViewController.swift */,
 				8049B1D72928A3E800495CA3 /* Main.storyboard */,
 				8049B1DA2928A3E900495CA3 /* Assets.xcassets */,
 				8049B1DC2928A3E900495CA3 /* LaunchScreen.storyboard */,
 				8049B1DF2928A3E900495CA3 /* Info.plist */,
+				8049B1E92928AAFF00495CA3 /* Contents */,
 			);
 			path = PageViewSample;
+			sourceTree = "<group>";
+		};
+		8049B1E92928AAFF00495CA3 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				8049B1E52928A41200495CA3 /* MondayViewController.swift */,
+				8049B1E72928A47000495CA3 /* MondayViewController.storyboard */,
+				8049B1EA2928AB1E00495CA3 /* TusedayViewController.swift */,
+				8049B1EC2928AB3C00495CA3 /* TusedayViewController.storyboard */,
+				8027CD812928B9DD00873A26 /* WednesdayViewController.swift */,
+				8027CD832928BA1F00873A26 /* WednesdayViewController.storyboard */,
+				8027CD852928BF5D00873A26 /* ThursdayViewController.swift */,
+				8027CD872928BF7D00873A26 /* ThursdayViewController.storyboard */,
+			);
+			path = Contents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +157,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8027CD842928BA1F00873A26 /* WednesdayViewController.storyboard in Resources */,
 				8049B1DE2928A3E900495CA3 /* LaunchScreen.storyboard in Resources */,
+				8049B1E82928A47000495CA3 /* MondayViewController.storyboard in Resources */,
+				8027CD882928BF7D00873A26 /* ThursdayViewController.storyboard in Resources */,
+				8049B1ED2928AB3C00495CA3 /* TusedayViewController.storyboard in Resources */,
 				8049B1DB2928A3E900495CA3 /* Assets.xcassets in Resources */,
 				8049B1D92928A3E800495CA3 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8049B1D62928A3E800495CA3 /* ViewController.swift in Sources */,
+				8049B1D62928A3E800495CA3 /* PageViewSampleViewController.swift in Sources */,
+				8027CD822928B9DD00873A26 /* WednesdayViewController.swift in Sources */,
 				8049B1D22928A3E800495CA3 /* AppDelegate.swift in Sources */,
+				8049B1EB2928AB1E00495CA3 /* TusedayViewController.swift in Sources */,
+				8049B1E62928A41200495CA3 /* MondayViewController.swift in Sources */,
 				8049B1D42928A3E800495CA3 /* SceneDelegate.swift in Sources */,
+				8027CD862928BF5D00873A26 /* ThursdayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
