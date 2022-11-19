@@ -112,21 +112,8 @@ extension PageViewSampleViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
 
         let destinationVc = destinationVc(from: viewController, position: -1, logDescription: "before")
-        
-        switch destinationVc {
-        case let monday as MondayViewController:
-            print("debug0000 before MondayViewController : \(monday.description)")
-        case let tuseday as TusedayViewController:
-            print("debug0000 before TusedayViewController : \(tuseday.description)")
-        case let wednesday as WednesdayViewController:
-            print("debug0000 before WednesdayViewController : \(wednesday.description)")
-        case let thursday as ThursdayViewController:
-            print("debug0000 before ThursdayViewController: \(thursday.description)")
-        case nil:
-            print("debug0000 before nil")
-        default:
-            print("debug0000 before default")
-        }
+
+        loggingInUIPageViewControllerDataSource(to: destinationVc, description: "before")
 
         /// これをちゃんと対象のViewController返さないとダメっぽい
         /// Thursdayを固定で返すと、最初の一巡ではなんかいい感じに動くが、そのあとThursdayしか表示されなくなった
@@ -138,21 +125,25 @@ extension PageViewSampleViewController: UIPageViewControllerDataSource {
         
         let destinationVc = destinationVc(from: viewController, position: +1, logDescription: "after")
 
+        loggingInUIPageViewControllerDataSource(to: destinationVc, description: "after")
+
+        return destinationVc
+    }
+    
+    func loggingInUIPageViewControllerDataSource(to destinationVc: UIViewController?, description: String) {
         switch destinationVc {
-        case let monday as MondayViewController:
-            print("debug0000 after MondayViewController")
-        case let tuseday as TusedayViewController:
-            print("debug0000 after TusedayViewController")
-        case let wednesday as WednesdayViewController:
-            print("debug0000 after WednesdayViewController")
-        case let thursday as ThursdayViewController:
-            print("debug0000 after ThursdayViewController")
+        case _ as MondayViewController:
+            print("debug0000 \(description) MondayViewController")
+        case _ as TusedayViewController:
+            print("debug0000 \(description) TusedayViewController")
+        case _ as WednesdayViewController:
+            print("debug0000 \(description) WednesdayViewController")
+        case _ as ThursdayViewController:
+            print("debug0000 \(description) ThursdayViewController")
         case nil:
-            print("debug0000 after nil")
+            print("debug0000 \(description) nil")
         default:
             print("debug0000 after default")
         }
-        
-        return destinationVc
     }
 }
